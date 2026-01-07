@@ -1,0 +1,394 @@
+/* Body font & background */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar link hover */
+.navbar-nav .nav-link:hover {
+    color: #6f42c1 !important;
+}
+
+/* Navbar brand color */
+.navbar-brand {
+    color: #6f42c1 !important;
+}
+
+/* Hero section */
+.hero {
+    background: linear-gradient(135deg, #6f42c1, #59339d);
+    color: #fff;
+}
+
+/* Hero buttons */
+.hero .btn-light {
+    color: #59339d;
+    font-weight: 600;
+}
+
+.hero .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.hero .btn-outline-light:hover {
+    background-color: #fff;
+    color: #59339d;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    color: #6f42c1;
+    text-decoration: underline;
+}
+
+footer hr {
+    margin: 1rem 0;
+    border-color: #6f42c1;
+}
+
+/* Responsive hero */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}
+/* General Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+}
+.navbar-nav .nav-link:hover {
+    color: #6f42c1 !important;
+}
+.navbar-brand {
+    color: #6f42c1 !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #6f42c1, #59339d);
+    color: #fff;
+    padding: 100px 0;
+}
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.hero .btn-light {
+    color: #59339d;
+    font-weight: 600;
+}
+.hero .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+.hero .btn-outline-light:hover {
+    background-color: #fff;
+    color: #59339d;
+}
+
+/* Hero image styling */
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 12px;
+    display: block;
+}
+
+/* Slight overlay for readable text on the left */
+.hero::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Showcase gallery */
+.showcase .card {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.showcase .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* Sections Titles */
+section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #6f42c1;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.card h5 {
+    color: #6f42c1;
+}
+.card ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Benefits & How It Works Icons */
+.card i {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+/* Transaction Fee Section */
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+.bg-light .card {
+    background-color: #fff;
+}
+
+/* Call to Action */
+section.text-center h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+section.text-center .btn {
+    font-size: 1.1rem;
+    padding: 10px 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #59339d;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+footer a {
+    color: #fff;
+}
+footer a:hover {
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    section h2 {
+        font-size: 1.5rem;
+    }
+    .card i {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        padding: 50px 0;
+    }
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    .hero-image {
+        max-height: 250px;
+        margin-top: 20px;
+    }
+    .showcase .card-img-top {
+        height: 160px;
+    }
+}
+
+/* Pricing Page Styles */
+.pricing-header {
+    margin-bottom: 4rem;
+}
+
+.pricing-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #6f42c1;
+    margin-bottom: 1rem;
+}
+
+.pricing-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Main Pricing Card */
+.pricing-card {
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.featured-card {
+    background: linear-gradient(135deg, #fff 0%, #f8f9ff 100%);
+    border: 2px solid #6f42c1;
+}
+
+.featured-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(111, 66, 193, 0.2) !important;
+}
+
+.pricing-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #6f42c1, #59339d);
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+}
+
+.pricing-amount {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #6f42c1;
+    margin: 0;
+}
+
+.pricing-description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+.pricing-features {
+    text-align: left;
+    margin: 2rem 0;
+}
+
+.pricing-features li {
+    padding: 0.7rem 0;
+    font-size: 1rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+.pricing-features li:last-child {
+    border-bottom: none;
+}
+
+.pricing-features i {
+    font-size: 1.2rem;
+}
+
+/* Benefit Cards */
+.benefit-card {
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.benefit-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1) !important;
+}
+
+.benefit-icon {
+    font-size: 2.5rem;
+}
+
+.benefit-card h5 {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.benefit-card p {
+    font-size: 0.95rem;
+}
+
+/* Accordion Styling */
+.accordion-button {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #6f42c1;
+    color: white;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button:focus {
+    border-color: #6f42c1;
+    box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.25);
+}
+
+.accordion-item {
+    border: 1px solid #e9ecef;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-body {
+    color: #666;
+    line-height: 1.6;
+}
